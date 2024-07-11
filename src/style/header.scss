@@ -1,0 +1,121 @@
+.logotype-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .logotype-section1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-end;
+    
+     
+  }
+  .logotype-heading {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: calc(276px * 2);
+    padding: 0;
+    padding-bottom: 14px;
+    margin: 0;
+    font: italic 600 30px/30px "Playfair Display", serif;
+    color: white;
+  }
+  .horizontal-menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     
+  }
+  .horizontal-menu-container_box {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 44px;
+  }
+  .unique-text-styling {
+    /* flex: 0 0 auto; */
+    padding: 0;
+    margin: 0;
+    font: 600 16px/17.5px Geist;
+    color: white;
+    text-transform: uppercase;
+  }
+  .reservation-button-container {
+    box-sizing: border-box;    
+    width: fit-content;
+    display: flex;
+     
+     
+  }
+  .reservation-button {
+    width: fit-content;
+    width: 225px;
+    height: 40px;
+    border-radius: 20px;
+    font: 700 16px/17.6px Arimo;
+    cursor: pointer;
+    color: #161616;
+    text-transform: uppercase;
+    background-color: #fff;
+    justify-self: end;
+  }
+  .book-now-button1 {
+    box-sizing: border-box;
+    display: block;
+    width: 225px;
+    min-width: 225px;
+    height: 40px;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: #161616;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .luxurious-script-heading {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: -14px;
+    margin-left: -35px;
+    font: 400 350px/315px "Luxurious Script", cursive;
+    color: white;
+    z-index: 1;
+  }
+  .company-description-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: initial;
+    height: 660px;
+    margin-top: -116px;
+    background: url("assets/image_105440bf.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+  }
+  .geist-heading_banner {
+    padding: 0;
+    padding-top: 79px;
+    padding-bottom: 559px;
+    margin: 0;
+    font: 600 20px/22px Geist;
+    color: white;
+    text-transform: uppercase;
+  }

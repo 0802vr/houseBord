@@ -1,0 +1,159 @@
+.flight-schedule-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 280px;
+    margin-bottom: 26px;
+  }
+  .svg-container6 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    margin-left: -4.75px;
+    color: #ffffff;
+  }
+  .journey-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 42px;
+    background: #202020;
+    overflow: hidden;
+  }
+  .trip-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 276px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  .majestic-heading {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 600 48px/48px "Playfair Display", serif;
+    color: white;
+    text-align: left;
+    text-indent: 276px;
+  }
+  .journey-info-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    margin-left: 276px;
+    max-width: 522px;
+    margin-top: 20px;
+    
+  }
+  .journey-info-text {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 247px;
+    padding: 0;
+    margin: 0;
+    font: 400 16px/19px Arimo, sans-serif;
+    color: white;
+    text-align: justify;
+  }
+  .scenic-description-text-style {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 247px;
+    padding: 0;
+    margin: 0;
+    margin-left: 28px;
+    font: 400 16px/19px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .journey-info-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+  }
+  .image-container-with-text2 {
+    box-sizing: border-box;
+    display: block;
+    width: 42px;
+    max-width: initial;
+    height: 330px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .image-container-with-text1 {
+    box-sizing: border-box;
+    display: block;
+    width: 520px;
+    max-width: initial;
+    height: 330px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .horizontal-align-center-with-text {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .move-container {
+    position: absolute;
+    left: 76%;
+    bottom: 36%;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -48px;
+  }
+  .image-caption {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    max-width: initial;
+    height: 100px;
+  }
+  .geist-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: -84px;
+    font: 500 14px/15.5px Geist;
+    color: #161616;
+    text-transform: uppercase;
+  }
+  .image-container-with-text {
+    box-sizing: border-box;
+    display: block;
+    width: 520px;
+    max-width: initial;
+    height: 330px;
+     
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }

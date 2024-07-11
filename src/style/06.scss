@@ -1,0 +1,251 @@
+
+.luxury-rental-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    margin-top: 220px;
+    padding: 0 30px;
+  }
+  .flex-row-container1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .tariff-section-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 1.75px;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .rental-card-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .featured-image {
+    box-sizing: border-box;
+    display: block;
+    width: 552px;
+    max-width: initial;
+    height: 512px;
+    border: none;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  .luxury-houseboat-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 40px 39px 50px;
+    background: #202020;
+    border-radius: 16px;
+    height: 512px;
+    width: 100%;
+  }
+  .boat-rental-details-container {
+    flex: 0 0 auto;
+  }
+  .elegant-heading {
+    padding: 0;
+    margin: 0;
+    font: 600 42px/38px "Playfair Display", serif;
+    color: white;
+  }
+  .boat-details-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .luxury-details-container {
+    box-sizing: border-box;
+    flex: 0 1 361px;
+  }
+  .description-title {
+    padding: 0;
+    margin: 0;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: #717171;
+  }
+  .luxury-description-text-style {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    font: 400 16px/17.5px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .additional-services-section {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 28px;
+  }
+  .services-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 8px;
+  }
+  .bold-white-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: white;
+  }
+  .highlighted-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 17px;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: white;
+  }
+  .highlighted-text1 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 13px;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: white;
+  }
+  .additional-services-info {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 6px;
+    font: 400 16px/17.5px Arimo, sans-serif;
+    color: #717171;
+    text-align: left;
+  }
+  .info-panel {
+    box-sizing: border-box;
+    flex: 0 0 361px;
+    padding-bottom: 27.5px;
+    margin-left: 28px;
+  }
+  .section-card {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 8px;
+  }
+  .section-info-container {
+    margin-top: 5.5px;
+  }
+  .vacation-package-details:first-child {
+    margin-top: 0px;
+  }
+  .flex-row-with-gap {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .section-info-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 16px/17.5px Arimo, sans-serif;
+    color: white;
+    white-space: pre-wrap;
+  }
+  .section-divider {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 9.5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .price-card {
+    flex: 0 0 auto;
+    margin-top: 32px;
+  }
+  .book-now-button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-width: 748px;
+    height: 40px;
+    margin-top: 24px;
+    font: 600 16px/17.5px Geist;
+    color: #161616;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .rental-card-container1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+  }
+  .boat-image-display-style {
+    box-sizing: border-box;
+    display: block;
+    width: 552px;
+    max-width: initial;
+    height: 426px;
+    border: none;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  .boat-rental-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 40px 39px 50px;
+    background: #202020;
+    border-radius: 16px;
+    height: 426px;
+    width: 100%;
+  }
+  .boat-description-section {
+    box-sizing: border-box;
+    flex: 0 1 361px;
+    padding-bottom: 28.5px;
+  }
+  .side-panel {
+    box-sizing: border-box;
+    flex: 0 0 361px;
+    margin-left: 28px;
+  }
+  .pricing-card {
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
+  .rental-card_btn {
+    position: relative;
+    bottom: 0;
+    
+  }

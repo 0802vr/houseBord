@@ -1,0 +1,212 @@
+.main-content-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 220px; 
+     
+  }
+  .flex-row-start-aligned {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: calc(276px *2 + 30px);
+  }
+  .header-text-uppercase {
+    flex: 0 0 auto;
+    padding: 0; 
+    margin: 0;
+    font: 700 18px Arimo, sans-serif;
+    color: #5b5b5b;
+    text-transform: uppercase;
+  }
+  .vertical-text-overlap {
+    box-sizing: border-box;
+    display: block;
+    width: 640px;
+    max-width: initial;
+    height: 650px;
+    margin-top: 30px;
+    margin-left: -52px;
+  }
+  .entertainment-section {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding-bottom: 13.5px;
+     
+  }
+  .entertainment-section1-box {
+    overflow-x: hidden;
+    width: calc(100vw - 276px * 2 - 30px);
+  }
+  .entertainment-section-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+     
+  }
+  .svg-container5 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    margin-left: 1.25px;
+    color: #5b5b5b;
+  }
+  .entertainment-section1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+    gap: 20px;
+  }
+  .sauna-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 600px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 30px 29px 40px;
+    background: #202020;
+    border-radius: 10px;
+    height: 645px;
+    position: relative;
+  }
+  .sauna-image-style {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    max-width: initial;
+    height: 300px;
+    width: 540px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .sauna-title-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font: 600 36px/32px "Playfair Display", serif;
+    color: white;
+  }
+  .sauna-description-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    font: 400 18px/21.5px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .sauna-details-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font: 700 16px/19px Arimo, sans-serif;
+    color: #717171;
+    text-align: left;
+  }
+  .line-break-divider {
+    display: block;
+    line-height: 2px;
+  }
+  .sauna-details-heading {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font: 600 36px/32px "Playfair Display", serif;
+    color: white;
+  }
+  .flex-row-centered {
+    position: absolute;
+    left: 600px;
+    z-index: 2;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+  }
+  .image-caption {
+    box-sizing: border-box;
+    display: block;
+    width: 100px;
+    max-width: initial;
+    height: 100px;
+  }
+  .geist-heading1 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: -84px;
+    font: 500 14px/15.5px Geist;
+    color: #161616;
+    text-transform: uppercase;
+  }
+  .themed-area-container {
+    box-sizing: border-box;
+    flex: 0 0 238px;
+    margin-left: -40px;
+  }
+  .turkish-bath-card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 238px;
+    padding: 30px 29px 40px;
+    background: #202020;
+    border-radius: 10px;
+  }
+  .immersive-image {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: initial;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .elegant-heading {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font: 600 36px/32px "Playfair Display", serif;
+    color: white;
+  }
+  .turkish-theme-description {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    font: 400 18px/21.5px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .themed-description-block {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font: 700 16px/19px Arimo, sans-serif;
+    color: #717171;
+    text-align: left;
+  }

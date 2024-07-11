@@ -1,0 +1,247 @@
+
+.boat-house-details-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 220px;
+  }
+  .flex-container-with-text-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .header-title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: calc(276px *2);
+    padding: 0;
+    margin: 0;
+    font: 700 36px Arimo, sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  .boat-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .svg-container1 {
+      display: flex;
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      color: #ffffff;
+    }
+    .svg-container2 {
+      display: flex;
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      margin-left: -1.25px;
+      color: #ffffff;
+    }
+  }
+  
+  .title-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: -0.8px;
+    font: 700 36px Arimo, sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .boat-features-section {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .luxury-features-container1 {
+    box-sizing: border-box;
+    width: 100%;
+    background: #202020;
+     
+  }
+  .luxury-features-container2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 39px 47px;
+    background: #202020;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  .feature-section-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .majestic-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 52px/47px "Playfair Display", serif;
+    color: white;
+  }
+  .boat-features-container {
+    flex: 0 0 auto;
+    padding-top: 15.5px;
+  }
+  .svg-container3 {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    color: #ffffff;
+  }
+  .feature-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 29.5px;
+  }
+  .luxury-features-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 650px;
+    background: url("assets/image_237909ea.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+  }
+  .title-features-container {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 600 52px/48px "Playfair Display", serif;
+    color: white;
+    text-align: left;
+  }
+  .image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: initial;
+    height: 353px;
+  }
+  .ship-interior-features-description {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    max-width: 440px;
+    padding: 0;
+    margin: 0;
+    margin-left: 49px;
+    font: 400 18px/21.5px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .line-height-block {
+    display: block;
+    line-height: 10px;
+  }
+  .cozy-cabins-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 38px 47px 39px;
+    margin-top: -1px;
+    background: #202020;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+  }
+  .cozy-cabin-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 52px/47px "Playfair Display", serif;
+    color: #5b5b5b;
+  }
+  .svg-container4 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    color: #5b5b5b;
+  }
+  .feature-list-container1 {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .feature-card-subset {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .feature-card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 38px 47px 39px;
+    background: #202020;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  .feature-title-subset-container {
+    margin-top: -50px;
+  }
+  .feature-card-container:first-child {
+    margin-top: 0px;
+  }
+  .elegant-title-subset {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 52px/47px "Playfair Display", serif;
+    color: #5b5b5b;
+    white-space: pre-wrap;
+  }
+  .kitchen-shower-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 38px 47px 33px;
+     
+    background: #202020;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  .feature-card-container_third {
+    z-index: 3;
+    position: relative;
+  }
+  .feature-card-container_fourth {
+    z-index: 4;
+    position: relative;
+  }
+  .feature-card-container_fifth {
+    z-index: 5;
+    position: relative;
+  }
+  .feature-card-container_sixth {
+    z-index: 6;
+    position: relative;
+  }

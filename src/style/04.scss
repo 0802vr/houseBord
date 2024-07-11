@@ -1,0 +1,127 @@
+.luxury-boat-details-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    padding-right: 29px;
+    padding-left: 29px; 
+    margin-top: 165px;
+  }
+  .luxury-boat-details-container1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .heading-text-bold-uppercase-gray {
+      width: fit-content;
+    }
+  }
+  .luxury-text-styler {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: flex-end;
+     
+    padding: 0;
+    margin: 0;
+    font: 600 40px/40px "Playfair Display", serif;
+    color: white;
+    text-align: justify;
+    text-indent: 276px;
+    padding-left: 276px;
+  }
+  .luxury-features-section {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+     
+    margin-top: 10px;
+  }
+  .feature-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    align-self: flex-end;
+    justify-content: flex-end;
+    max-width: 277px;
+    padding-bottom: 5px;
+  }
+  .vehicle-details-container1 {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    max-width: initial;
+    height: 160px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .vehicle-details-section {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font: 400 16px/17.5px Arimo, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  .line-spacer {
+    display: block;
+    line-height: 4px;
+  }
+  .vehicle-details-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: calc(100% - 552px);
+    /* background: url("assets/image_736369c9.png") 50% / cover no-repeat; */
+    border: none;
+    border-radius: 16px;
+    margin-left: 320px;
+    position: relative;
+    
+  }
+  .full-width-image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: initial;
+    height: 100%;
+    border-radius: 16px;
+    z-index: 2;
+    position: relative;
+    
+  }
+  .full-width-image-container_0 {
+
+  }
+  .full-width-image-container_2 {
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+  }
+  .luxury-button-style {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    align-self: flex-end;
+    width: 100%;
+    height: 40px;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: #161616;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -60px;
+  }

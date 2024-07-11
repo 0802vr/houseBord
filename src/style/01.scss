@@ -1,0 +1,162 @@
+.premium-waterfront-vacation-destination {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 120px;
+    padding: 0 30px;
+  }
+  .premium-house-boat-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  
+  }
+  .heading-uppercase-featured {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: calc(276px *2);
+    padding: 0;
+    margin: 0;
+    font: 700 18px Arimo, sans-serif;
+    color: #5b5b5b;
+    text-transform: uppercase;
+  }
+  .house-boat-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 1.25px;
+    align-items: center;
+    justify-content: flex-start;
+     
+  }
+  .svg-container {
+    display: flex;
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    color: #5b5b5b;
+  }
+  .heading-text-bold-uppercase-gray {
+    /* flex: 0 0 auto; */
+    padding: 0;
+    margin: 0;
+    font: 700 18px Arimo, sans-serif;
+    color: #5b5b5b;
+    text-transform: uppercase;
+    width: 138px;
+  }
+  .premium-description-section {
+     
+    padding-left: calc(276px *2);
+    margin-top: 20px;
+  }
+  .premium-house-boat-description-text-style {
+    box-sizing: border-box;
+    max-width: 830px;
+    padding: 0;
+    margin: 0;
+    font: italic 600 36px/36px "Playfair Display", serif;
+    color: white;
+    text-align: justify;
+  }
+  .vacation-experience-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+  }
+  .boat-image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 276px;
+    max-width: initial;
+    height: 180px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .hero-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .book-now-button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    width: calc(276px *3);
+    height: 336px;
+     
+    background: url("assets/image_6d7a2053.png") 50% / cover no-repeat;
+  }
+  .book-now-button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-width: 239px;
+    height: 40px;
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: #161616;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .vacation-info-container {
+    flex: 0 0 auto;
+    padding-top: 0;
+    margin-left: calc(276px);
+  }
+  .vacation-card {
+    position: relative;
+    box-sizing: border-box;
+    width: 673px;
+    height: 462px;
+  }
+  .vacation-card_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .vacation-card_btn {
+    font: 700 16px/17.5px Arimo, sans-serif;
+    color: #161616;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .secluded-text-styler {
+     
+    box-sizing: border-box;
+    max-width: 241px;
+    padding: 0;
+    margin: 0;
+    font: 400 16px/19px Arimo, sans-serif;
+    color: white;
+    text-align: justify;
+  }
+  .vacation-image-container {
+    position: absolute;
+    top: 6px;
+    left: 270px;
+    box-sizing: border-box;
+    display: block;
+    width: 403px;
+    max-width: initial;
+    height: 456px;
+    border: none;
+    border-radius: 10px;
+    object-fit: cover;
+  }
